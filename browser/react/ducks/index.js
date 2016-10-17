@@ -5,7 +5,7 @@ import artistsReducer from './artists';
 import albumsReducer from './albums';
 import currentSongReducer from './currentSong';
 import currentSongListReducer from './currentSongList';
-import  Reducer from './isPlaying';
+import isPlayingReducer from './isPlaying';
 import progressReducer from './progress';
 import selectedAlbumReducer from './selectedAlbum';
 import selectedArtistReducer from './selectedArtist';

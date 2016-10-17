@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-import FormContainer from '../forms'
+import FormContainer from '../forms/Form.js'
+
 export default function (props) {
   const artists = props.artists;
 

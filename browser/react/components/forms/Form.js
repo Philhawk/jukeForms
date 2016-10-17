@@ -1,15 +1,15 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addStory } from './action-creators';
+// import { addStory } from './action-creators';
 
 class Form extends React.Component {
 
   render () {
     return (
       <form className="form-group" onSubmit={this.props.handleSubmit}>
-        <label htmlFor="post">Say something great:</label>
+        <label htmlFor="post">Find an Artist:</label>
         <input className="form-control" name="post" type="text" onChange={this.props.handleChange} />
-        <button type="submit" className="btn btn-default">Post</button>
+        <button type="submit" className="btn btn-default">Find</button>
       </form>
     )
   }
