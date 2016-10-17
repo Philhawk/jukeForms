@@ -2,6 +2,7 @@
 
 import { combineReducers } from 'redux';
 import artistsReducer from './artists';
+import playlistsReducer from './playlists';
 import albumsReducer from './albums';
 import currentSongReducer from './currentSong';
 import currentSongListReducer from './currentSongList';
@@ -21,4 +22,5 @@ export default combineReducers({
   progress: progressReducer,
   selectedAlbum: selectedAlbumReducer,
   selectedArtist: selectedArtistReducer,
+  playlists: playlistsReducer,
   songs: songsReducer});
